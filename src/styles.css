@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: #e1eeeb;
+  background:radial-gradient(#303b37, #1a1f1d);
+  min-height: 100vh;/*the min height of the body will equals the height of the visible browser window*/
+/*-webkit-font-smoothing: antialiased;*/   /* Safari/Chrome on macOS: uses grayscale smoothing */
+/*-moz-osx-font-smoothing: grayscale;*/  /* Firefox on macOS: uses grayscale smoothing */
+}
