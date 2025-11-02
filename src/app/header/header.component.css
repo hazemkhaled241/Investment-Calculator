@@ -1,9 +1,10 @@
 header{
-    align-items: center;
+    text-align: center;
     margin: 3rem auto;
 }
-header image{
+header img{
     width: 5rem ;
+    height: 5rem ;
     object-fit: contain;
     background-color: transparent;
 }
